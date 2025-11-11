@@ -516,7 +516,7 @@ footer ul li a i {
     nav {
         position: absolute;
         top: 100%;
-        left: 0;
+        left: -100%;
         /* background: #74d2a0; */
         width: 70%;
         height: 100vh;
@@ -566,3 +566,4 @@ footer ul li a i {
     }
 
 }
+
