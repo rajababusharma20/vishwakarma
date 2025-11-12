@@ -279,12 +279,10 @@ nav ul li:hover {
 }
 .gallery-image-group .gallery-image-box {
     position: relative;
-    width: 100%;
-    min-width: 269px;
+    flex: 1 1 280px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-right: 10px;
     margin-bottom: 10px;
-    flex: 1;
     border-radius: 5px;
     overflow: hidden;
     background-color: #fff;
@@ -337,7 +335,7 @@ nav ul li:hover {
 }
 .partner-image-group .partner-image-box {
     position: relative;
-    flex: 1 1 168px;
+    flex: 1 1 180px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-right: 10px;
@@ -409,11 +407,13 @@ form.contact {
     color: #555;
 }
 
-.google-map {
+.google-map,
+.facebook-page-plugin {
     width: 100%;
     height: 100%;
 }
-.google-map iframe {
+.google-map iframe,
+.facebook-page-plugin iframe {
     width: 100%;
     border: none;
     min-height: 410px;
@@ -563,7 +563,6 @@ footer ul li a i {
     form.contact {
     padding: 0;
     box-shadow: none
-    }
-
 }
 
+}
